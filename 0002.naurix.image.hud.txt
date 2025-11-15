@@ -37,14 +37,14 @@ background-size: auto 100vh;
 /* Оригинальные стили, если нужно — оставь */
 .old-logo img {
     width: 18.50vh;
-    height: 10.2vh;
+    height: 15.00vh;
     margin-right: 2vh;
 }
 
 /* Новый стиль, который точно применится к текущему шаблону */
 .Old-Fixed-Logo img {
     width: 18.50vh !important;
-    height: 10.2vh !important;
+    height: 15.00vh !important;
     margin-right: 2vh !important;
 }
 
