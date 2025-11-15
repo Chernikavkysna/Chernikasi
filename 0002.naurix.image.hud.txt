@@ -1006,10 +1006,10 @@ body #app .hud-radmir-radar__map {
 }
 
 /* белое табло капта.css */
-/* ---------- Чёрное табло капта ---------- */
+/* ---------- Белое табло капта ---------- */
 #app .capture-table {
-    background: rgba(0, 0, 0, 0.45);
-    box-shadow: 0 0 5vh 0 rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 0 5vh 0 rgba(255, 255, 255, 0.25);
     border-radius: 1vh;
     transform: scale(.9);
     padding: 1.5vh 1.8vh;
@@ -1019,7 +1019,7 @@ body #app .hud-radmir-radar__map {
 #app .capture-table__col-kills,
 #app .capture-table__col-kills.my,
 #app .capture-table__timer {
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(255, 255, 255, 0.30);
     color: #ffffff;
     font-style: normal;
     font-weight: 900;
@@ -1028,7 +1028,7 @@ body #app .hud-radmir-radar__map {
     border-radius: .5vh;
 }
 
-/* размеры таймера */
+/* Размеры таймера */
 #app .capture-table__timer {
     width: 7.5vh;
     height: 3.7vh;
@@ -1037,7 +1037,7 @@ body #app .hud-radmir-radar__map {
     align-items: center;
 }
 
-/* размеры киллов */
+/* Размеры киллов */
 #app .capture-table__col-kills {
     margin: 0;
     width: 3.5vh;
@@ -1047,7 +1047,7 @@ body #app .hud-radmir-radar__map {
     align-items: center;
 }
 
-/* никнейм */
+/* Ник */
 #app .capture-table__col .name {
     font-family: 'GothamPro Bold';
     font-style: normal;
@@ -1055,16 +1055,16 @@ body #app .hud-radmir-radar__map {
     color: #fff;
 }
 
-/* отступы */
+/* Отступы */
 #app .capture-table__col-kills.my {
     margin-right: 1.3vh;
     margin-left: 0 !important;
-    background: rgba(0, 0, 0, 0.0);
+    background: none;
 }
 
 #app .capture-table__col-kills {
     margin-left: 1.3vh;
-    background: rgba(0, 0, 0, 0.0);
+    background: none;
 }
 
 /* белые полоски.css */
