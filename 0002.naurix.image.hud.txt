@@ -944,34 +944,80 @@ body .window-table__item.selected:hover {
     font-weight: 500;
     margin-top: .46vh;
 }
+/* БАЗОВЫЕ СТИЛИ */
 #app .hud-radmir-radar__map {
-    width: 26.3vh !important;
-    height: 16.9vh !important;
+    transition: .3s;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100%;
-    border: none
 }
 
-body #app .hud-radmir-radar__map {
-    transition: .3s
+#app .hud-radmir-radar__radar {
+    width: 26.3vh;
 }
 
 #app .hud-hassle-map {
     width: 32vh !important;
-    height: 32vh !important
+    height: 32vh !important;
 }
 
-#app .hud-radmir-radar__radar {
-    width: 26.3vh
+/* --------------------------------------------- */
+/* РАДАР 1 (квадратный, чёрная рамка) */
+/* --------------------------------------------- */
+.radar-1 #app .hud-radmir-radar__map {
+    width: 21.9vh !important;
+    height: 20.9vh !important;
+    border-radius: 2vh;
+    border: 0.65vh solid #000 !important;
 }
 
-#app .hud-radmir-radar {
+.radar-1 #app .hud-radmir-radar {
+    left: 7.2vh;
+}
+
+/* --------------------------------------------- */
+/* РАДАР 2 (круглый, серебристая рамка) */
+/* --------------------------------------------- */
+.radar-2 #app .hud-radmir-radar__map {
+    border-radius: 100%;
+    border: 0.65vh solid #C0C0C0 !important;
+}
+
+/* --------------------------------------------- */
+/* РАДАР 3 (круглый без рамки) */
+/* --------------------------------------------- */
+.radar-3 #app .hud-radmir-radar__map {
+    width: 26.3vh !important;
+    height: 16.9vh !important;
+    border-radius: 100%;
+    border: none;
+}
+
+.radar-3 #app .hud-radmir-radar {
     left: 7.3vh;
-    bottom: 4.03vh
+    bottom: 4.03vh;
 }
+
+/* --------------------------------------------- */
+/* РАДАР 4 (прямоугольный, чёрная рамка) */
+/* --------------------------------------------- */
+.radar-4 #app .hud-radmir-radar__map {
+    width: 26.3vh !important;
+    height: 16.9vh !important;
+    border-radius: 2vh;
+    border: 0.65vh solid #000 !important;
+}
+
+.radar-4 #app .hud-radmir-radar__radar {
+    border-radius: 2vh;
+}
+
+.radar-4 #app .hud-radmir-radar {
+    left: 7.3vh;
+    bottom: 4.03vh;
+}
+
 
 /* iconsize_white.css */
 .old-money img {
