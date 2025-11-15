@@ -36,15 +36,15 @@ background-size: auto 100vh;
 /*---------- Размер логотипа сервера ----------*/
 /* Оригинальные стили, если нужно — оставь */
 .old-logo img {
-    width: 23.00vh;
-    height: 15.02vh;
+    width: 29.00vh;
+    height: 12.02vh;
     margin-right: 2vh;
 }
 
 /* Новый стиль, который точно применится к текущему шаблону */
 .Old-Fixed-Logo img {
-    width: 23.00vh !important;
-    height: 15.02vh !important;
+    width: 29.00vh !important;
+    height: 12.02vh !important;
     margin-right: 2vh !important;
 }
 
